@@ -1,0 +1,34 @@
+<html>
+	<style>
+		h1{
+			font-family; Sanserif;
+			width: 320px;
+			color: black;
+			font-weight: normal;
+			align-self: center;
+			
+		}
+		input:focus{
+			border: 2px solid blue;
+		}
+		button:hover{
+			background:blue;
+			color: whitesmoke;
+		}
+		#container{
+			text-align: center;
+		}
+	</style>
+	<div id = "container">
+		<h1>
+	Search for your Movie
+		</h1>
+
+		<form action="/results" method = "GET">
+			<input type = "text" placeholder = "search here" name = "search" required>
+			<button>Go</button>
+		</form>
+	</div>
+	
+</html>
+
